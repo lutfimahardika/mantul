@@ -1096,7 +1096,7 @@ function toggleTekDropdown(){ const w=document.getElementById("tekWrapper"); if(
    SPAREPART PAGE
 ═══════════════════════════════════════ */
 let spData=[], spFiltered=[], spSortCol='', spSortDir=1, spPage=1;
-const SP_PER_PAGE=15;
+const SP_PER_PAGE=30;
 
 /* ─── Sparepart Mesin Dropdown Filter ─── */
 let spSelectedMesin='';
@@ -1446,7 +1446,7 @@ const RH_CACHE_TTL  = 10 * 60 * 1000;
 let rhData = { weekLabels: [], machines: [] };
 let rhFiltered = [];
 let rhSortCol = '', rhSortDir = 1, rhPage = 1;
-const RH_PER_PAGE = 15;
+const RH_PER_PAGE = 30;
 
 function rhLoadingMsg(html){
   document.getElementById('rhTbody').innerHTML = `<tr><td colspan="5" class="sp-loading">${html}</td></tr>`;
